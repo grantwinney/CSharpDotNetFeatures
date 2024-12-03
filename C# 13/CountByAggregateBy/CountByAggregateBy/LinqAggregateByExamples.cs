@@ -6,6 +6,12 @@ internal class LinqAggregateByExamples
     {
         var employees = EmployeeHelper.GetEmployees();
 
+        var t1 = employees.MaxBy(x => x.Salary > 130_000);
+
+        var t2 = employees.Max(x => x.Salary < 130_000);
+
+        var t3 = employees.DistinctBy(x => x.Salary);
+
         // Query total salaries of ALL employees BY DEPT - GroupBy / Aggregate
         var totalSalariesByDept = employees
             .GroupBy(e => e.Dept)

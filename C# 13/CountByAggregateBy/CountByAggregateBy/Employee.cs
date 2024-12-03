@@ -2,7 +2,7 @@
 
 internal record Employee(string Name, string Dept, string Title, decimal Salary);
 
-class EmployeeHelper()
+class EmployeeHelper
 {
     internal static IEnumerable<Employee> GetEmployees()
     {
@@ -13,7 +13,7 @@ class EmployeeHelper()
             new("Bill", "Accounting", "Accountant", 90_000),
             new("Dean", "Accounting", "Accountant", 84_000),
 
-            new("Suzy", "IT", "Developer", 125_000),
+            new("Suzy", "IT", "Developer", 160_000),
             new("Mike", "IT", "Manager", 160_000),
             new("Adam", "IT", "Developer", 75_000),
 

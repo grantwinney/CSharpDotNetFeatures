@@ -1,6 +1,6 @@
 <img src="https://github.com/user-attachments/assets/65ea9d4c-aa46-4ac3-bbb8-a3d9ad99ddc7" width="200px">
 
-# C# / .NET Examples
+# C# / .NET Features
 
 The code here goes with [my blog posts](https://grantwinney.com) relate to specific versions of [C#](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history) and [.NET](https://learn.microsoft.com/en-us/dotnet/core/whats-new/), which are [very closely related](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/relationships-between-language-and-library) and usually updated at the same time _(see [here](https://github.com/dotnet/csharplang/blob/main/Language-Version-History.md) and [here](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions))_. I sometimes upload code to separate repos (like for [WinForms](https://github.com/grantwinney/Surviving-WinForms) and [misc topics](https://github.com/grantwinney/BlogCodeSamples)), or to [Gist](https://gist.github.com/grantwinney) or [JsFiddle](https://jsfiddle.net/user/grantwinney/fiddles/) for shorter snippets.
 
@@ -9,6 +9,7 @@ The code here goes with [my blog posts](https://grantwinney.com) relate to speci
 - [The relationship between C# language features and library types | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/relationships-between-language-and-library)
 - [Features Added in C# Language Versions · dotnet/csharplang](https://github.com/dotnet/csharplang/blob/main/Language-Version-History.md)
 - [C# programming language versions - Wikipedia](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)#Versions)
+- [.NET and .NET Core Support Policy](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
 
 The list below has links to each blog post and the relevant code, separated by version of language/framework. Links with a `†` next to them are in a separate repo, most likely [Surviving WinForms](https://github.com/grantwinney/Surviving-WinForms), which applies concepts specifically to the WinForms framework.
 
