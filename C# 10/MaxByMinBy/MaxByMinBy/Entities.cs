@@ -1,4 +1,4 @@
-﻿namespace MaxByMinByAllTheBy;
+﻿namespace MaxByMinBy;
 
 internal record Employee(string Name, string Dept, decimal Salary, DateOnly HireDate, int SecurityLevel) : IComparable<Employee>
 {

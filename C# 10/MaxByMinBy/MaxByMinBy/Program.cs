@@ -1,4 +1,4 @@
-﻿using MaxByMinByAllTheBy;
+﻿using MaxByMinBy;
 
 
 // Finding the max number from a list of integers
