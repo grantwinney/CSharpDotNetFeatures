@@ -34,6 +34,7 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## C# 10 / .NET 6
 
+- Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy ([blog post](https://grantwinney.com/set-based-linq-exceptby-intersectby-unionby-distinctby), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/SetBasedLinqMethods))
 - Using MinBy and MaxBy in LINQ ([blog post](https://grantwinney.com/using-minby-and-maxby-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/MaxByMinBy))
 
 ## C# 9 / .NET 5
