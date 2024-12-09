@@ -12,4 +12,3 @@ internal record Employee(string Name, string Dept, decimal Salary, DateOnly Hire
 }
 
 internal record Company(string Name, IEnumerable<Employee> Employees);
-
