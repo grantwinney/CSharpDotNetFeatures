@@ -39,6 +39,7 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## C# 9 / .NET 5
 
+- Records, Classes and Equality ([blog post](https://grantwinney.com/records-classes-and-equality-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2009/RecordModifier))
 - Switch/Case Pattern Matching (vs if/else) ([blog post](https://grantwinney.com/if-else-vs-switch-case-pattern-matching), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2009/SwitchPatternMatchingVsIfElse))
 
 ## C# 8 / .NET Core 3.x
