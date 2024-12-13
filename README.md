@@ -19,6 +19,7 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## C# 12 / .NET 8
 
+- Primary Constructors in Classes and Structs ([blog post](https://grantwinney.com/using-primary-constructors-with-classes-and-structs-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/PrimaryConstructors))
 - Time Abstraction
   - Part 1 - How to use TimeProvider and FakeTimeProvider ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/TimeAbstraction))
   - Part 2 - How to use TimeProvider and FakeTimeProvider with timers ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider-to-test-timers), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/TimeAbstraction_Timers))
@@ -34,8 +35,8 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## C# 10 / .NET 6
 
+- MinBy and MaxBy in LINQ ([blog post](https://grantwinney.com/using-minby-and-maxby-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/MaxByMinBy))
 - Set-based LINQ - ExceptBy, IntersectBy, UnionBy, DistinctBy ([blog post](https://grantwinney.com/set-based-linq-exceptby-intersectby-unionby-distinctby), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/SetBasedLinqMethods))
-- Using MinBy and MaxBy in LINQ ([blog post](https://grantwinney.com/using-minby-and-maxby-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2010/MaxByMinBy))
 
 ## C# 9 / .NET 5
 
