@@ -32,6 +32,7 @@ The list below has links to each blog post and the relevant code, separated by v
   - Part 3 - What is Generic Math Support? ([blog post](https://grantwinney.com/whats-generic-math-support-in-csharp))
 - Generic Attributes ([blog post](https://grantwinney.com/what-are-generic-attributes), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2011/GenericAttributes))
 - List Patterns ([blog post](https://grantwinney.com/whats-a-list-pattern-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2011/ListPatternMatching))
+- Raw String Literals ([blog post](https://grantwinney.com/using-raw-string-literals-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2011/RawStringLiterals))
 
 ## C# 10 / .NET 6
 
