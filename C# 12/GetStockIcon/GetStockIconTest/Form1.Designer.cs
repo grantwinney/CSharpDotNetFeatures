@@ -46,7 +46,7 @@
             // 
             button1.ImageAlign = ContentAlignment.MiddleLeft;
             button1.ImageList = imageList1;
-            button1.Location = new Point(31, 138);
+            button1.Location = new Point(15, 138);
             button1.Name = "button1";
             button1.Size = new Size(114, 23);
             button1.TabIndex = 0;
@@ -78,7 +78,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(183, 94);
+            pictureBox1.Location = new Point(167, 94);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(128, 128);
             pictureBox1.TabIndex = 3;
@@ -100,6 +100,7 @@
             btnSaveIcons.Size = new Size(75, 23);
             btnSaveIcons.TabIndex = 5;
             btnSaveIcons.Text = "Save Icons";
+            toolTip1.SetToolTip(btnSaveIcons, "Save icons in .ico/.bmp formats");
             btnSaveIcons.UseVisualStyleBackColor = true;
             btnSaveIcons.Click += btnSaveIcons_Click;
             // 

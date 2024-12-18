@@ -36,16 +36,16 @@ public partial class Form1 : Form
         foreach (StockIconId icon in Enum.GetValues(typeof(StockIconId)))
             imageList2.Images.Add(icon.ToString(), SystemIcons.GetStockIcon(icon, 64));
 
-        var imageKeys = imageList2.Images.Keys.Cast<string>();
-
         // Then use the icons in the second list to populate the toolbar
-        toolStrip1.Items.AddRange(imageKeys.Select(x =>
-            new ToolStripButton(imageList2.Images[x]) { ToolTipText = x })
-            .ToArray());
-
-        // And generate a bunch of pictures with the icon at the larger size
+        // and generate a bunch of pictures with the icon at the larger size
         foreach (var imageKey in imageList2.Images.Keys)
         {
+            var btn = new ToolStripButton(imageList2.Images[imageKey]);
+            btn.Click += (s, e) => MessageBox.Show($"Stock Icon: {imageKey}");
+            btn.Image = imageList2.Images[imageKey];
+            btn.ToolTipText = imageKey;
+            toolStrip1.Items.Add(btn);
+
             var pb = new PictureBox
             {
                 Width = 64, Height = 64,
@@ -84,7 +84,7 @@ public partial class Form1 : Form
             foreach (StockIconId icon in Enum.GetValues(typeof(StockIconId)))
             {
                 var stockIcon = SystemIcons.GetStockIcon(icon, Convert.ToInt32(lboxSaveIcons.SelectedItem));
-                
+
                 // Save .bmp file
                 stockIcon.ToBitmap().Save(Path.Combine(savePath, $"{icon}.bmp"));
              
