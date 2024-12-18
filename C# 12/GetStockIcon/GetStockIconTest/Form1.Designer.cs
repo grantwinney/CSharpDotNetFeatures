@@ -36,7 +36,6 @@
             pictureBox1 = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             toolTip1 = new ToolTip(components);
-            saveFileDialog1 = new SaveFileDialog();
             btnSaveIcons = new Button();
             folderBrowserDialog1 = new FolderBrowserDialog();
             lboxSaveIcons = new ListBox();
@@ -74,7 +73,7 @@
             // imageList2
             // 
             imageList2.ColorDepth = ColorDepth.Depth32Bit;
-            imageList2.ImageSize = new Size(16, 16);
+            imageList2.ImageSize = new Size(64, 64);
             imageList2.TransparentColor = Color.Transparent;
             // 
             // pictureBox1
@@ -144,7 +143,6 @@
         private PictureBox pictureBox1;
         private FlowLayoutPanel flowLayoutPanel1;
         private ToolTip toolTip1;
-        private SaveFileDialog saveFileDialog1;
         private Button btnSaveIcons;
         private FolderBrowserDialog folderBrowserDialog1;
         private ListBox lboxSaveIcons;
