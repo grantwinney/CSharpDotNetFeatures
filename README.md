@@ -19,7 +19,6 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## C# 12 / .NET 8
 
-- GetStockIcon in WinForms ([blog post](https://grantwinney.com/how-to-use-getstockicon-for-winforms), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/GetStockIcon))
 - Primary Constructors in Classes and Structs ([blog post](https://grantwinney.com/using-primary-constructors-with-classes-and-structs-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/PrimaryConstructors))
 - Time Abstraction
   - Part 1 - How to use TimeProvider and FakeTimeProvider ([blog post](https://grantwinney.com/how-to-use-timeprovider-and-faketimeprovider), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2012/TimeAbstraction))
