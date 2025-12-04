@@ -13,6 +13,11 @@ The code here goes with [my blog posts](https://grantwinney.com) relate to speci
 
 The list below has links to each blog post and the relevant code, separated by version of language/framework. Links with a `†` next to them are in a separate repo, most likely [Surviving WinForms](https://github.com/grantwinney/Surviving-WinForms), which applies concepts specifically to the WinForms framework.
 
+## C# 14 / .NET 10
+
+- Using Extension Members ([blog post](https://grantwinney.com/csharp-extension-members), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/ExtensionMembers))
+- Null Conditional / Coalescing Operators for Assignment ([blog post](https://grantwinney.com/csharp-null-conditional-assignment), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/NullConditionalAssignment))
+
 ## C# 13 / .NET 9
 
 - Using CountBy and AggregateBy in LINQ ([blog post](https://grantwinney.com/using-linq-countby-and-aggregateby-in-csharp), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2013/CountByAggregateBy))

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ExtensionMembers/ExtensionMembers.csproj" />
+  <Project Path="Tests/Tests.csproj" />
+</Solution>
