@@ -15,8 +15,8 @@ The list below has links to each blog post and the relevant code, separated by v
 
 ## C# 14 / .NET 10
 
-- Using Extension Members ([blog post](https://grantwinney.com/csharp-extension-members), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/ExtensionMembers))
 - Null Conditional / Coalescing Operators for Assignment ([blog post](https://grantwinney.com/csharp-null-conditional-assignment), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/NullConditionalAssignment))
+- Using Extension Members ([blog post](https://grantwinney.com/csharp-extension-members), [source code](https://github.com/grantwinney/CSharpDotNetFeatures/tree/master/C%23%2014/ExtensionMembers))
 
 ## C# 13 / .NET 9
 
